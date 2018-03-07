@@ -1,0 +1,13 @@
+<%= @restaurant.name %>
+<br>
+<%= @restaurant.address %>
+<br>
+<%= @restaurant.category %>
+<br>
+<br>
+<%= link_to "Delete", restaurant_path(@restaurant),
+      method: :delete%>
+
+<br>
+<br>
+<%= link_to "Show all resto", restaurants_path%>
